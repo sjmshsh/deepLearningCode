@@ -26,7 +26,7 @@ def _numerical_gradient(f, x):
     return grad
 
 
-# 传入X是一个矩阵
+# 数值微分求梯度向量, 传入X是一个矩阵
 def numerical_gradient(f, X):
     # 判断维度
     if X.ndim == 1:
